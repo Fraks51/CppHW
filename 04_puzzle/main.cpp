@@ -25,5 +25,9 @@ int main() {
     for (const auto& t : s) {
         std::cout << t.to_string() << "\n";
     }
+    solver rand(5);
+    for (const auto& t : rand) {
+        std::cout << t.to_string() << "\n";
+    }
     return 0;
 }
